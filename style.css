@@ -1,0 +1,55 @@
+
+body {
+  display: flex;
+  place-items: center;
+  
+}
+
+.background {
+  position: absolute;
+  width: 915px;
+  height: 1180px;
+
+  background: #51361a;
+  border-radius: 30px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.img_background {
+  position: absolute;
+  width: 881px;
+  height: 1142px;
+  top: 15px;
+  right: 17px;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+     /* url(image.png);  */
+  opacity: 0.32;
+  border: 2px solid #98ffff;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.serch_field {
+  position: absolute;
+  width: 817px;
+  height: 63px;
+  right: 145px;
+  top: 51px;
+  background: #ffffff;
+  border: 1px solid #98ff98;
+  box-sizing: border-box;
+  border-radius: 40px;
+  font-size: large;
+}
+.but_cherry{
+    position: absolute;
+width:36.14px;
+height: 0.47px;
+right: 165.867px;
+top: 55px;
+border: none;
+background: rgb(255, 255, 255);
+cursor: pointer;
+}
