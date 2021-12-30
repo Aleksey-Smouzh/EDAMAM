@@ -2,7 +2,9 @@ body {
   display: flex;
   place-items: center;
 }
-
+.container {
+  position: relative;
+}
 .background {
   position: absolute;
   width: 915px;
@@ -33,13 +35,35 @@ body {
   position: absolute;
   width: 817px;
   height: 63px;
-  /* right: 145px; */
-  right: 305px;
-  top: 51px;
-  background: #ffffff;
+  right: 0px;
+left: 51px;
+top: 51px;
+bottom: 0px;
+-webkit-box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+border-radius: 15px;
+border: 1px solid #98ffff;
+background: rgba(255, 255, 255, 0.493);
+overflow: hidden;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+  justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+  align-items: center;
+border-top: 1px solid rgba(255, 255, 255, 0.5);
+border-left: 1px solid rgba(255, 255, 255, 0.5);
+border-right: 1px solid rgba(255, 255, 255, 0.5);
+-webkit-backdrop-filter: blir(5px);
+backdrop-filter: blir(5px);
+  
+  /* background: #ffffff;
   border: 1px solid #98ff98;
   box-sizing: border-box;
-  border-radius: 40px;
+  border-radius: 40px; */
   font-size: large;
 }
 .but_cherry {
@@ -50,14 +74,14 @@ body {
   left: 733px;
   top: 55px;
   border: none;
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.493);;
   cursor: pointer;
 }
 .but_mint_filter {
   position: absolute;
   /* width: 76px; */
   height: 41px;
-  left: 785px;
+  left: 780px;
   border: none;
   top: 60px;
   padding: 0;
@@ -68,56 +92,180 @@ body {
   width: 437px;
   height: 575px;
   top: 147px;
-  left: 445px;
-
-  background: #ffffff;
+  left: 435px;
+  -webkit-box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+border-radius: 15px;
+border: 1px solid #98ffff;
+background: rgba(255, 255, 255, 0.493);
+overflow: hidden;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+  justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+  align-items: center;
+border-top: 1px solid rgba(255, 255, 255, 0.5);
+border-left: 1px solid rgba(255, 255, 255, 0.5);
+border-right: 1px solid rgba(255, 255, 255, 0.5);
+-webkit-backdrop-filter: blir(5px);
+  backdrop-filter: blir(5px);
+  /* background: #ffffff;
   border: 1px solid #98ff98;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 40px;
+  border-radius: 40px; */
+}
+.foto_dish {
+  position: absolute;
+  width: 342px;
+  height: 249px;
+  bottom: 0px;
+  right: 0px;
+  left: 52px;
+  top: 148px;
+
+  background: url(image.png);
+  filter: drop-shadow(33px 33px 21px rgba(0, 0, 0, 0.25));
+  border-radius: 50px;
 }
 .line_name_totalNutrientsd {
   position: absolute;
   width: 342px;
   height: 49.57px;
-
-  background: #ffffff;
+  right: 0px;
+  bottom: 0px;
+  left: 54px;
+  top: 427px;
+  -webkit-box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+border-radius: 15px;
+border: 1px solid #98ffff;
+background: rgba(255, 255, 255, 0.493);
+overflow: hidden;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+  justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+  align-items: center;
+border-top: 1px solid rgba(255, 255, 255, 0.5);
+border-left: 1px solid rgba(255, 255, 255, 0.5);
+border-right: 1px solid rgba(255, 255, 255, 0.5);
+-webkit-backdrop-filter: blir(5px);
+  backdrop-filter: blir(5px);
+  /* background: #ffffff;
   border: 1px solid #98ffff;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
+  border-radius: 50px; */
 }
 .line_name_healthLabels {
   position: absolute;
   width: 342px;
   height: 49.57px;
-
-  background: #ffffff;
+  right: 0px;
+  bottom: 0px;
+  left: 56px;
+  top: 510px;
+  -webkit-box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+border-radius: 15px;
+border: 1px solid #98ffff;
+background: rgba(255, 255, 255, 0.493);
+overflow: hidden;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+  justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+  align-items: center;
+border-top: 1px solid rgba(255, 255, 255, 0.5);
+border-left: 1px solid rgba(255, 255, 255, 0.5);
+border-right: 1px solid rgba(255, 255, 255, 0.5);
+-webkit-backdrop-filter: blir(5px);
+  backdrop-filter: blir(5px);
+  /* background: #ffffff;
   border: 1px solid #98ffff;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
+  border-radius: 50px; */
 }
 .line_name_dietLabels {
   position: absolute;
   width: 342px;
   height: 49.57px;
-
-  background: #ffffff;
+  bottom: 0px;
+  right: 0px;
+  top: 586px;
+  left: 57px;
+  -webkit-box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+border-radius: 15px;
+border: 1px solid #98ffff;
+background: rgba(255, 255, 255, 0.493);
+overflow: hidden;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+  justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+  align-items: center;
+border-top: 1px solid rgba(255, 255, 255, 0.5);
+border-left: 1px solid rgba(255, 255, 255, 0.5);
+border-right: 1px solid rgba(255, 255, 255, 0.5);
+-webkit-backdrop-filter: blir(5px);
+  backdrop-filter: blir(5px);
+  /* background: #ffffff;
   border: 1px solid #98ffff;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
+  border-radius: 50px; */
 }
 .line_name_dishType {
   position: absolute;
   width: 342px;
   height: 49.57px;
-
-  background: #ffffff;
+  top: 665px;
+  bottom: 0px;
+  left: 57px;
+  right: 0px;
+  -webkit-box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+border-radius: 15px;
+border: 1px solid #98ffff;
+background: rgba(255, 255, 255, 0.493);
+overflow: hidden;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+  justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+  align-items: center;
+border-top: 1px solid rgba(255, 255, 255, 0.5);
+border-left: 1px solid rgba(255, 255, 255, 0.5);
+border-right: 1px solid rgba(255, 255, 255, 0.5);
+-webkit-backdrop-filter: blir(5px);
+  backdrop-filter: blir(5px);
+  /* background: #ffffff;
   border: 1px solid #98ffff;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
+  border-radius: 50px; */
 }
