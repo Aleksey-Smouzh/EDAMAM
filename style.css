@@ -89,6 +89,7 @@ backdrop-filter: blir(5px);
 }
 .recipe_search {
   position: absolute;
+  flex-direction: column;
   width: 437px;
   height: 575px;
   top: 147px;
@@ -97,7 +98,7 @@ backdrop-filter: blir(5px);
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
 border-radius: 15px;
 border: 1px solid #98ffff;
-background: rgba(218, 216, 127, 0.493);
+background: rgba(242, 238, 203, 0.493);
 overflow: hidden;
 display: -webkit-box;
 display: -ms-flexbox;
