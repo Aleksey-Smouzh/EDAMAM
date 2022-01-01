@@ -5,6 +5,9 @@ body {
 .container {
   position: relative;
 }
+button{
+  cursor: pointer;
+}
 .background {
   position: absolute;
   width: 915px;

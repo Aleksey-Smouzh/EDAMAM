@@ -68,8 +68,18 @@ fetch(
     document.querySelector(".recipe_name").innerHTML =
       data.hits[0].recipe.label;
     document.querySelector(".recipt_link").innerHTML = data.hits[0].recipe.url;
-    document.querySelector(".ingredients_recipe").innerHTML = data.hits[0].recipe.ingredientLines;
-      //console.log(data.hits[0].recipe.ingredientLines)
+    
+    // const arrayIngredientLines = [data.hits[0].recipe.ingredientLines];
+    // for (let i = 0; i < arrayIngredientLines.length; i++) {
+    //     const element = arrayIngredientLines[i];
+    //    let columnIngredientLi = document.createElement('li')
+    //    columnIngredientLi.innerHTML = element;
+    // }
+   
+
+     document.querySelector(".ingredients_recipe_list").innerHTML =
+      data.hits[0].recipe.ingredientLines;
+
 
     document.querySelector(".calories").innerHTML =
       Math.round(data.hits[0].recipe.calories) +
@@ -77,9 +87,9 @@ fetch(
       "total" +
       " " +
       "calories.";
-    document.querySelector(".foto_dish").innerHTML = `<img src="${data.hits[0].recipe['image']}" alt="foto_dish"/>`
-      
-    
+    document.querySelector(
+      ".foto_dish"
+    ).innerHTML = `<img src="${data.hits[0].recipe["image"]}" alt="foto_dish"/>`;
   });
 
 //ingredientLines
