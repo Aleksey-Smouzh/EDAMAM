@@ -131,15 +131,15 @@ background-color: #f6f6f6;
  overflow: auto; 
 border: 1px solid #ddd; 
 margin-left: 0px;
- display: flex; 
-min-width: 348px;
-  max-height: 350px;
+min-width: 368px;
+max-height: 574px;
 right: 0px;
-left: 492px;
- position: relative; 
+left: 470px;
+position: absolute; 
 top: 147px;
-border-radius: 15px;
+
 display: none;
+z-index: 10;
 }
 
 .show {
