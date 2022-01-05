@@ -34,7 +34,7 @@ button{
   border-radius: 50px;
 }
 
-.serch_field {
+.search_field {
   position: absolute;
   width: 817px;
   height: 63px;
@@ -90,6 +90,97 @@ backdrop-filter: blir(5px);
   padding: 0;
   cursor: pointer;
 }
+li {
+  display: inline-block;
+}
+
+ul {
+  margin-left: 5px;
+  padding-left: 0;
+}
+
+.input {
+  width: 130px;
+} 
+
+/* .but_mint_filter {
+  margin-left: 0px;
+  background-color: #4caf50;
+  color: white;
+  padding: 3px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  min-width: 162px;
+  border-radius: 5px 5px 0px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: green;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+background-color: #f6f6f6;
+ overflow: auto; 
+border: 1px solid #ddd; 
+margin-left: 0px;
+ display: flex; 
+min-width: 348px;
+  max-height: 350px;
+right: 0px;
+left: 492px;
+ position: relative; 
+top: 147px;
+border-radius: 15px;
+display: none;
+}
+
+.show {
+  display: block;
+}
+
+:checked {
+  color: green;
+  font-weight: bold;
+}
+
+dl {
+  margin-left: 5px;
+  padding: 5px 0 0 0;
+}
+
+dt {
+  background: #b8c1c8;
+  border-bottom: 1px solid #989ea4;
+  border-top: 1px solid #717d85;
+  color: black;
+  font: bold 12px/16px Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0px 0 0 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+dd {
+  font: bold 12px/16px Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0 0 0 0;
+  white-space: nowrap;
+}
+
+dd + dd {
+  border-top: 1px solid #ccc;
+}
+
+
 .recipe_search {
   position: absolute;
   flex-direction: column;
